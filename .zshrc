@@ -9,7 +9,6 @@ autoload -Uz compinit && compinit
 # case insensitive path-completion                                                                                                                                                                          
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
                                                                                                                                                       
-
 # partial completion suggestions                                                                                                                                                                            
 zstyle ':completion:*' list-suffixes
 zstyle ':completion:*' expand prefix suffix
