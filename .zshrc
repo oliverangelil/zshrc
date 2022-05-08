@@ -15,6 +15,9 @@ r:][:upper:]}={[:upper:][:lower:]} l:|= r:|=*'
 zstyle ':completion:*' list-suffixes
 zstyle ':completion:*' expand prefix suffix
 
+# allow tab completion of ../                                                                                                                                                                               
+zstyle ':completion:*' special-dirs true
+
 # Automatically run executable files                                                                                                                                                                        
 zstyle ':completion:*' rehash true
 
