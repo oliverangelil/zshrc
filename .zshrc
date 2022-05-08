@@ -7,9 +7,8 @@ alias ll='ls -ltrh'
 autoload -Uz compinit && compinit
 
 # case insensitive path-completion                                                                                                                                                                          
-zstyle ':completion:' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|= r:|=' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|= r:|=' 'm:{[:lowe\
-r:][:upper:]}={[:upper:][:lower:]} l:|= r:|=*'
-# zstyle ':completion:*'  matcher-list 'm:{a-z}={A-Z}'                                                                                                                                                      
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+                                                                                                                                                      
 
 # partial completion suggestions                                                                                                                                                                            
 zstyle ':completion:*' list-suffixes
