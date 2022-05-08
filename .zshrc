@@ -34,7 +34,6 @@ RPROMPT=\$vcs_info_msg_0_
 zstyle ':vcs_info:git:*' formats '%F{240}(%b)%r%f'
 zstyle ':vcs_info:*' enable git
 
-
 # >>> conda initialize >>>                                                                                                                                                                                  
 # !! Contents within this block are managed by 'conda init' !!                                                                                                                                              
 __conda_setup="$('/Users/oliverangelil/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
